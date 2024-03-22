@@ -1,12 +1,8 @@
 public class Main {
     public static void main(String[] args) {
-        //Author lermontov = new Author("Михаил", "Лермонтов");
-        //System.out.println("Автор - " + lermontov.getAuthor);
         Book mtsiri = new Book("*Мцыри*", "Лермонтов", 2021);
         System.out.println("Книга 1 - " + mtsiri.getName() + " "
                 + mtsiri.getAuthor() + " " + mtsiri.getPublisherYear());
-        //System.out.println("Автор - " + mtsiri.getAuthor());
-        //System.out.println("Дата публикации - " + mtsiri.getPublisherYear());
         mtsiri.setPublisherYear(1839);
         System.out.println("Дата публикации исправлено - " + mtsiri.getPublisherYear());
 
